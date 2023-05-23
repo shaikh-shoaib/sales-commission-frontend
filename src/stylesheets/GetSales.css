@@ -1,0 +1,22 @@
+.get-drop-container {
+    /* background-color: #97DECE; */
+    position: relative;
+    display: flex;
+    gap: 10px;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #555;
+    color: #444;
+    cursor: pointer;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+    overflow: hidden;
+}
+
+.get-drop-container:hover {
+    background: #eeeeee;
+    border-color: #111;
+} 

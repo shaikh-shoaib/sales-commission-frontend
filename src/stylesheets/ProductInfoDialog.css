@@ -1,0 +1,26 @@
+.product-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid black;
+}
+
+thead {
+  color: white;
+  background-color: #393E46;
+}
+
+.product-name {
+  color: #393E46;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: Roboto;
+}
